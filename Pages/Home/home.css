@@ -242,7 +242,7 @@ p {
 }
 
 /* Phone media queries */
-@media only screen and (max-device-width: 637px) {
+@media only screen and (max-device-width: 638px) {
 
 /* Text Styles */
   .link-top {
