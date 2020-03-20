@@ -43,13 +43,11 @@ body, html {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../../Assets/parallax_home_1.jpg");
   min-height: 100%;
-  background-position: center;
   opacity: 1;
 }
 .img2-parallax-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5)),  url("../../Assets/parallax_home_2.jpg");
   min-height: 100%;
-  background-position: center;
   opacity: 1;
 }
 
@@ -60,6 +58,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-clip: border-box;
 }
 
 /* Links */
