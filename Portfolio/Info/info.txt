@@ -1,8 +1,0 @@
-NAMING
-  Images: img[number]-[style]-[page]
-      ex: img1-parallax-home
-  DIV types:
-    Buttons: button-[function]-[page]
-    Others:
-    
-left off trying to fix text justify in contact page, also divs in contact.css might be fucked up
