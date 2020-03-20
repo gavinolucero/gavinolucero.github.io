@@ -1,0 +1,89 @@
+/* Stylescheet */
+
+/* Body */
+body, html {
+  height: 100%;
+  width: 100%;
+    background-image: url("../../Assets/background_contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  margin: 0;
+  font-size: 100%;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../Fonts/Roboto-Thin.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../Fonts/Roboto-Light.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../Fonts/Roboto-Regular.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Kenzo';
+  src: url("../../Fonts/Kenzo Regular.otf");
+  font-style: normal;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+/* Text Styles */
+.link-top {
+  font-family: Roboto;
+    color: white;
+    font-size: 1.25em;
+    font-weight: 200;
+    text-align: right;
+    /*text-shadow: 1px 1px 10px rgba(0,0,0,0.3);*/
+  float: right;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  transition: 0.1s;
+}
+.link-top:hover {
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.2);
+  transition: 0.2s;
+}
+
+/* DIVs */
+.links-top {
+  width: 100%;
+}
+
+/* Phone media queries */
+@media only screen and (max-device-width: 637px) {
+  
+/* Text Styles */
+  .link-top {
+    float: none;
+    display: block;
+    padding-top: 10px;
+  }
+  
+/* DIVs */
+  .links-top {
+    padding-top: 20px;
+  }
+  
+}
