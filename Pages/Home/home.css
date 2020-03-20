@@ -115,6 +115,8 @@ a {
     font-weight: 200;
     letter-spacing: 5px;
     text-align: center;
+    text-decoration: none;
+    text-emphasis-style: none;
 }
 .subtitle-alt {
   margin: 0;
@@ -126,6 +128,8 @@ a {
     font-weight: 200;
     letter-spacing: 5px;
     text-align: center;
+    text-decoration: none;
+    text-emphasis-style: none;
 }
 
 p {
