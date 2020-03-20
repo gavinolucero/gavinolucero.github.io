@@ -248,6 +248,12 @@ p {
 /* Phone media queries */
 @media only screen and (max-device-width: 638px) {
 
+/* Parallax Images */
+.img1-parallax-home, .img2-parallax-home {
+  background-attachment: scroll;
+  background-position: bottom;
+}
+
 /* Text Styles */
   .link-top {
     float: none;
