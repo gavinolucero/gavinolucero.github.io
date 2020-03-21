@@ -31,6 +31,18 @@ body, html {
   font-stretch: normal;
   font-weight: 300;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../Fonts/Roboto-Black.ttf");
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url("../../Fonts/Roboto-CondensedItalic.ttf");
+  font-style: italic;
+}
 
 @font-face {
   font-family: 'Kenzo';
@@ -83,6 +95,18 @@ a {
   height: 65px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.link-bold {
+  font-family: Roboto;
+    color: white;
+    font-weight: 600;
+    font-size: 1.25em;
+    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 2%; */
 }
 
 /* Text Styles */
@@ -161,7 +185,7 @@ p {
   .footer-text {
     font-family: monospace;
       color: white;
-      font-size: 10px;
+      font-size: 0.625em;
       letter-spacing: 1.5px;
       font-weight: 200;
       text-align: center;
@@ -175,6 +199,21 @@ p {
   .info-overlay-p {
     color: white;
   }
+  .info-box-text {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+h3 {
+  font-family: Roboto;
+    color: white;
+    font-size: 1.25em;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: none;
+}
 
 /* DIVs */
 .links-top {
@@ -191,8 +230,16 @@ p {
 }
 .info-overlay {
   position: absolute;
-  top: 30%;
+  top: 10%;
   width: 100%;
+}
+.info-box {
+  display: block;
+  width: 300px;
+  height: 220px;
+  border-width: 2px;
+    border-color: white;
+    border-style: solid;
 }
 
 .button-work-home {
@@ -235,10 +282,16 @@ p {
 }
 
 .work-display {
+  /* background-color: gray; */
+  position: relative;
   display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
   margin: 40px;
     margin-top: 0px;
-
+  height: 400px;
+  width: auto;
 }
 
 .footer {
@@ -269,7 +322,7 @@ p {
     padding-bottom: 20px;
   }
   .footer-text {
-    font-size: 8px;
+    font-size: 0.5em;
   }
 
   .subtitle {
@@ -281,4 +334,22 @@ p {
     padding-top: 20px;
   }
 
+}
+
+@media only screen and (max-device-width: 1000px) {
+
+  /* DIVs */
+  .work-display {
+    flex-direction: column;
+    margin-top: 40px;
+    width: auto;
+    height: auto;
+  }
+  .info-box {
+    height: 180px;
+    margin-bottom: 20px;
+  }
+  .info-overlay {
+    top: 0px;
+  }
 }
