@@ -169,6 +169,7 @@ p {
       padding-bottom: 10px;
   }
   .info-bar-p {
+    padding-top: 0px;
     padding-bottom: 40px;
   }
   .info-overlay-p {
