@@ -4,5 +4,5 @@ NAMING
   DIV types:
     Buttons: button-[function]-[page]
     Others:
-    
-left off trying to fix text justify in contact page, also divs in contact.css might be fucked up
+
+3/20/2020 need to adjust info boxes for mobile
